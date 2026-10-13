@@ -1,0 +1,126 @@
+{
+  "project": "NovaBank Fraud Detection Intelligence",
+  "dataset": "PaySim synthetic transaction data",
+  "target_column": "isFraud",
+  "model": "XGBoostClassifier",
+  "feature_columns": [
+    "step",
+    "is_transfer",
+    "log_amount",
+    "log_oldbalanceOrg",
+    "log_oldbalanceDest",
+    "log_amount_to_origin_balance_ratio",
+    "log_amount_to_destination_balance_ratio",
+    "origin_balance_covers_amount"
+  ],
+  "excluded_from_features": [
+    "isFraud",
+    "isFlaggedFraud",
+    "newbalanceOrig",
+    "newbalanceDest",
+    "nameOrig",
+    "nameDest"
+  ],
+  "scale_pos_weight": 458.0432451133022,
+  "validation_best_f1_threshold": 0.997288703918457,
+  "validation_fraud_rate_pct": 1.499346,
+  "test_fraud_rate_pct": 3.296559,
+  "test_no_skill_average_precision_baseline": 0.03296559,
+  "test_no_skill_roc_auc_baseline": 0.5,
+  "threshold_metrics": [
+    {
+      "split": "validation_at_0.50",
+      "threshold": 0.5,
+      "transactions": 78701,
+      "fraud_cases": 1180,
+      "fraud_rate_pct": 1.499346,
+      "roc_auc": 0.999515544065807,
+      "average_precision": 0.9684190959908838,
+      "precision": 0.7501589319771138,
+      "recall": 1.0,
+      "f1": 0.8572466400290593,
+      "true_positives": 1180,
+      "false_positives": 393,
+      "true_negatives": 77128,
+      "false_negatives": 0
+    },
+    {
+      "split": "validation_at_validation_best_f1_threshold",
+      "threshold": 0.997288703918457,
+      "transactions": 78701,
+      "fraud_cases": 1180,
+      "fraud_rate_pct": 1.499346,
+      "roc_auc": 0.999515544065807,
+      "average_precision": 0.9684190959908838,
+      "precision": 0.8513931888544891,
+      "recall": 0.9322033898305084,
+      "f1": 0.889967637540453,
+      "true_positives": 1100,
+      "false_positives": 192,
+      "true_negatives": 77329,
+      "false_negatives": 80
+    },
+    {
+      "split": "test_at_0.50",
+      "threshold": 0.5,
+      "transactions": 37979,
+      "fraud_cases": 1252,
+      "fraud_rate_pct": 3.296559,
+      "roc_auc": 0.999458453535633,
+      "average_precision": 0.9838140660440641,
+      "precision": 0.860977288368892,
+      "recall": 0.9992012779552716,
+      "f1": 0.9249537892791128,
+      "true_positives": 1251,
+      "false_positives": 202,
+      "true_negatives": 36525,
+      "false_negatives": 1
+    },
+    {
+      "split": "test_at_validation_best_f1_threshold",
+      "threshold": 0.997288703918457,
+      "transactions": 37979,
+      "fraud_cases": 1252,
+      "fraud_rate_pct": 3.296559,
+      "roc_auc": 0.999458453535633,
+      "average_precision": 0.9838140660440641,
+      "precision": 0.9155378486055777,
+      "recall": 0.9177316293929713,
+      "f1": 0.916633426406063,
+      "true_positives": 1149,
+      "false_positives": 106,
+      "true_negatives": 36621,
+      "false_negatives": 103
+    }
+  ],
+  "top_review_capacity_metrics": [
+    {
+      "review_capacity_pct": 1.0,
+      "transactions_reviewed": 380,
+      "fraud_cases_captured": 380,
+      "capture_rate_pct": 30.3514,
+      "precision_pct": 100.0
+    },
+    {
+      "review_capacity_pct": 5.0,
+      "transactions_reviewed": 1899,
+      "fraud_cases_captured": 1252,
+      "capture_rate_pct": 100.0,
+      "precision_pct": 65.9294
+    },
+    {
+      "review_capacity_pct": 10.0,
+      "transactions_reviewed": 3798,
+      "fraud_cases_captured": 1252,
+      "capture_rate_pct": 100.0,
+      "precision_pct": 32.9647
+    }
+  ],
+  "limitations": [
+    "PaySim is synthetic data, not real bank transaction records.",
+    "Fraud prevalence changes substantially across chronological splits.",
+    "The validation-selected threshold may not remain optimal under distribution shift.",
+    "Model scores are not calibrated fraud probabilities.",
+    "Feature importance describes model behaviour, not causation."
+  ]
+}

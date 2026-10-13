@@ -1,0 +1,6 @@
+feature,mean_absolute_shap,mean_shap_direction
+step,1.9239943,1.9239943
+log_amount_to_destination_balance_ratio,1.0006036,-0.55074155
+is_transfer,0.79759336,-0.43792915
+log_oldbalanceDest,0.7332532,-0.64975154
+log_amount,0.54197896,-0.28404233

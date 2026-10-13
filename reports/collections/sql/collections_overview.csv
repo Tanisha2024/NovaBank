@@ -1,0 +1,2 @@
+source_file,all_source_rows,charged_off_loans,loans_with_recovery,recovery_incidence_pct,total_gross_recoveries,mean_recovery_all_charged_off,median_recovery_all_charged_off,mean_recovery_when_positive,median_recovery_when_positive,total_collection_recovery_fee,net_recovery_after_fee,gross_recovery_pct_of_funded_amount,scope_note
+data/raw/loan.csv,39717,5627,4218,74.96,3781917.24,672.1,173.04,896.61,328.49,492733.55,3289183.69,5.7184,Retrospective LendingClub 2007-2011 analysis; recoveries analysed only among loans labelled Charged Off.

@@ -1,0 +1,5 @@
+review_capacity_pct,loans_reviewed,charged_off_loans_found,capture_rate_pct,precision_pct
+5.0,957,351,11.43,36.68
+10.0,1914,609,19.84,31.82
+15.0,2871,854,27.82,29.75
+20.0,3828,1067,34.76,27.87

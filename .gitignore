@@ -1,0 +1,56 @@
+﻿# Secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+*.tmp
+
+# Notebook and testing cache
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw source datasets (keep required processed files)
+data/raw/
+
+# Local audit output
+model_search_results.txt
+
+# Large generated datasets
+data/processed/fraud_model_data.csv
+
+# Row-level loan data and individual predictions
+data/processed/credit_risk_cohort.csv
+reports/collections/charged_off_recovery_detail.csv
+reports/credit_risk/temporal_test_predictions.csv
+reports/credit_risk/shap_individual_case_contributions.csv
+reports/credit_risk/ai_copilot/evidence_packet.json
+reports/credit_risk/ai_copilot/risk_explanation.json
+reports/fraud_detection/modeling/fraud_test_predictions.csv
+reports/fraud_detection/modeling/fraud_no_step_shap_case_examples.csv
+reports/fraud_detection/modeling/fraud_shap_case_examples.csv
+
+# Hold back Power BI file until its embedded data is reviewed
+powerbi/*.pbix
+
+# Local development helper and individual-case plot
+app/ADD_FRAUD_PLAYGROUND_TO_APP.txt
+reports/credit_risk/figures/shap_individual_case.png

@@ -1,0 +1,2 @@
+candidate_model,test_rows,test_fraud_cases,test_fraud_rate_pct,validation_selected_threshold,flagged_transactions,true_positives,false_positives,false_negatives,note
+fraud_xgb_no_step.joblib,37979,1252,3.296559,0.9508801102638244,987,580,407,672,Synthetic PaySim retrospective evaluation; not validated for real bank transactions.

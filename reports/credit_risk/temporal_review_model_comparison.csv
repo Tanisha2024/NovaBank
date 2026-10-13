@@ -1,0 +1,9 @@
+model,review_capacity_pct,loans_reviewed,charged_off_loans_found,capture_rate_pct,precision_pct
+Logistic Regression,5.0,957,351,11.43,36.68
+Logistic Regression,10.0,1914,609,19.84,31.82
+Logistic Regression,15.0,2871,854,27.82,29.75
+Logistic Regression,20.0,3828,1067,34.76,27.87
+XGBoost,5.0,957,357,11.63,37.3
+XGBoost,10.0,1914,633,20.62,33.07
+XGBoost,15.0,2871,876,28.53,30.51
+XGBoost,20.0,3828,1086,35.37,28.37

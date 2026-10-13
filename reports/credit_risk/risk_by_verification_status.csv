@@ -1,0 +1,4 @@
+segment,loan_count,bad_loans,bad_rate_pct,ci_95_low_pct,ci_95_high_pct,bad_loan_share_pct,original_loan_amount
+Verified,12206,2051,16.8,16.15,17.48,36.45,189663350
+Source Verified,9677,1434,14.82,14.12,15.54,25.48,96485925
+Not Verified,16694,2142,12.83,12.33,13.35,38.07,140011825

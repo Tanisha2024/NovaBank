@@ -1,0 +1,3 @@
+segment,loan_count,bad_loans,bad_rate_pct,ci_95_low_pct,ci_95_high_pct,bad_loan_share_pct,original_loan_amount
+60 months,9481,2400,25.31,24.45,26.2,42.65,147045025
+36 months,29096,3227,11.09,10.74,11.46,57.35,279116075

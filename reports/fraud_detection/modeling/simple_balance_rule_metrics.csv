@@ -1,0 +1,4 @@
+split,rule,transactions,fraud_cases,true_positives,false_positives,false_negatives,true_negatives,precision_pct,recall_pct,f1
+test,predict fraud if origin_balance_covers_amount == 0,37979,1252,0,32647,1252,4080,0.0,0.0,0.0
+train,predict fraud if origin_balance_covers_amount == 0,2653729,5781,29,2387278,5752,260670,0.001215,0.501643,2.4e-05
+validation,predict fraud if origin_balance_covers_amount == 0,78701,1180,0,68680,1180,8841,0.0,0.0,0.0

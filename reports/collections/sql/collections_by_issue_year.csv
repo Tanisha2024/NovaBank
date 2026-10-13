@@ -1,0 +1,6 @@
+issue_year,charged_off_loans,loans_with_recovery,recovery_incidence_pct,total_gross_recoveries,mean_recovery_all_charged_off,median_recovery_all_charged_off,mean_recovery_when_positive,median_recovery_when_positive,total_collection_recovery_fee,net_recovery_after_fee,gross_recovery_pct_of_funded_amount
+2007,45,33,73.3333,31992.4,710.94,136.24,969.47,304.2,8328.92,23663.48,6.9068
+2008,247,137,55.4656,122624.19,496.45,18.93,895.07,231.11,26027.34,96596.85,4.8775
+2009,594,397,66.835,368038.91,619.59,65.04,927.05,235.51,92960.32,275078.59,5.9088
+2010,1485,1104,74.3434,827092.14,556.96,124.8,749.18,245.35,137187.41,689904.73,5.415
+2011,3256,2547,78.2248,2432169.59,746.98,244.71,954.92,400.11,228229.55,2203940.04,5.8386

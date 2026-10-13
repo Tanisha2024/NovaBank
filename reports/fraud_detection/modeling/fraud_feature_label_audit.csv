@@ -1,0 +1,11 @@
+split,isFraud,origin_balance_covers_amount,transaction_count,share_within_split_label_pct
+test,0,0,32647,88.891007
+test,0,1,4080,11.108993
+test,1,1,1252,100.0
+train,0,0,2387278,90.155773
+train,0,1,260670,9.844227
+train,1,0,29,0.501643
+train,1,1,5752,99.498357
+validation,0,0,68680,88.595348
+validation,0,1,8841,11.404652
+validation,1,1,1180,100.0

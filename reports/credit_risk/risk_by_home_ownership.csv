@@ -1,0 +1,4 @@
+segment,loan_count,bad_loans,bad_rate_pct,ci_95_low_pct,ci_95_high_pct,bad_loan_share_pct,original_loan_amount
+RENT,18480,2839,15.36,14.85,15.89,50.45,182704075
+OWN,2975,443,14.89,13.66,16.22,7.87,30160850
+MORTGAGE,17021,2327,13.67,13.16,14.2,41.35,212234400

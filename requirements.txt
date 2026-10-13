@@ -1,0 +1,21 @@
+
+@'
+duckdb==1.5.6
+groq==1.7.0
+ipykernel==7.4.0
+joblib==1.6.0
+jupyter==1.1.1
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.6
+pytest==9.1.1
+python-dotenv==1.2.4
+scikit-learn==1.9.1
+scipy==1.18.1
+seaborn==0.13.2
+shap==0.53.0
+streamlit==1.65.0
+xgboost==3.4.1
+'@ | Set-Content .\requirements.txt -Encoding utf8
+
+Get-Content .\requirements.txt

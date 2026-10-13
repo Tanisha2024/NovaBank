@@ -1,0 +1,9 @@
+feature,importance
+origin_balance_covers_amount,0.8898648619651794
+log_amount_to_origin_balance_ratio,0.08851956576108932
+log_amount,0.006692392285913229
+log_oldbalanceOrg,0.004542103968560696
+log_amount_to_destination_balance_ratio,0.00410736259073019
+is_transfer,0.0033031096681952477
+step,0.0015655760653316975
+log_oldbalanceDest,0.0014050791505724192

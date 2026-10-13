@@ -1,0 +1,4 @@
+split,min_step,max_step,transaction_count,fraud_count,normal_count,fraud_rate_pct
+train,1,520,2653729,5781,2647948,0.217844
+validation,521,631,78701,1180,77521,1.499346
+test,632,743,37979,1252,36727,3.296559

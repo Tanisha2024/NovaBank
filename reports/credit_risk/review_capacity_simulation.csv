@@ -1,0 +1,5 @@
+review_capacity_pct,loans_reviewed,charged_off_loans_found,capture_rate_pct,precision_pct,overall_bad_rate_pct,precision_vs_baseline
+5.0,386,128,11.38,33.16,14.58,2.27
+10.0,772,226,20.09,29.27,14.58,2.01
+15.0,1158,309,27.47,26.68,14.58,1.83
+20.0,1544,402,35.73,26.04,14.58,1.79

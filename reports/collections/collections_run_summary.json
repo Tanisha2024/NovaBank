@@ -1,0 +1,20 @@
+{
+  "source_file": "C:\\Users\\DELL\\OneDrive\\Desktop\\NovaBank\\data\\raw\\loan.csv",
+  "source_rows": 39717,
+  "charged_off_rows": 5627,
+  "reports_directory": "C:\\Users\\DELL\\OneDrive\\Desktop\\NovaBank\\reports\\collections",
+  "reports_created": [
+    "charged_off_recovery_detail.csv",
+    "collections_by_grade.csv",
+    "collections_by_issue_year.csv",
+    "collections_by_purpose.csv",
+    "collections_overview.csv",
+    "recovery_amount_bands.csv"
+  ],
+  "limitations": [
+    "Historical LendingClub 2007-2011 data; not representative of current Indian lending portfolios.",
+    "Recovery analysis is descriptive and restricted to loans labelled Charged Off.",
+    "A recorded recovery is not proof of full repayment or successful collections strategy.",
+    "Do not use post-origination recovery fields as predictors in the initial credit-risk model."
+  ]
+}

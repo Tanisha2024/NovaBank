@@ -1,0 +1,2 @@
+total_transactions,fraud_transactions,normal_transactions,fraud_rate_pct,total_amount_on_fraud_labeled_transactions
+6362620,8213.0,6354407.0,0.1291,12056415427.84

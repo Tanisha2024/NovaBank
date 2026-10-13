@@ -1,0 +1,12 @@
+column_name,column_type
+step,BIGINT
+type,VARCHAR
+amount,DOUBLE
+nameOrig,VARCHAR
+oldbalanceOrg,DOUBLE
+newbalanceOrig,DOUBLE
+nameDest,VARCHAR
+oldbalanceDest,DOUBLE
+newbalanceDest,DOUBLE
+isFraud,BIGINT
+isFlaggedFraud,BIGINT

@@ -1,0 +1,9 @@
+{
+    "test_rows": 7716,
+    "test_bad_rate_pct": 14.58,
+    "roc_auc": 0.662,
+    "average_precision": 0.2556,
+    "test_bad_rate_baseline_for_average_precision": 0.1458,
+    "brier_score_model": 0.1189,
+    "brier_score_constant_baseline": 0.1245
+}

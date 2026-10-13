@@ -1,0 +1,4 @@
+review_capacity_pct,transactions_reviewed,fraud_cases_captured,capture_rate_pct,precision_pct
+1.0,380,320,25.5591,84.2105
+5.0,1899,840,67.0927,44.2338
+10.0,3798,951,75.9585,25.0395
