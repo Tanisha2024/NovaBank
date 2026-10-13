@@ -1,4 +1,4 @@
-﻿# NovaBank — AI-Assisted Financial Risk Intelligence
+# NovaBank — AI-Assisted Financial Risk Intelligence
 
 NovaBank is a portfolio project combining credit-risk analytics, synthetic transaction fraud detection, collections and recovery analysis, explainable machine learning, a Groq-powered risk explanation feature, SQL workflows, and a Streamlit application.
 
@@ -36,7 +36,7 @@ These metrics come from a synthetic PaySim dataset and the specified test split.
 Reported historical analysis: 5,627 charged-off loans, 4,218 with positive recovery, $3,781,917.24 in gross recoveries, $492,733.55 in recorded recovery fees, and $3,289,183.69 net after those fees.
 
 ### 4. Power BI
-A local Power BI report was created with Credit Risk, Fraud Detection, and Collections & Recovery pages. The `.pbix` file is not included in this repository while its embedded data and redistribution permissions remain under review.
+The Power BI report is included at `powerbi/NovaBank_Financial_Intelligence.pbix` and contains Credit Risk, Fraud Detection, and Collections & Recovery pages.
 
 ## Technology Stack
 - Python, pandas, NumPy, SciPy
