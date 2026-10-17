@@ -38,6 +38,22 @@ Reported historical analysis: 5,627 charged-off loans, 4,218 with positive recov
 ### 4. Power BI
 The Power BI report is included at `powerbi/NovaBank_Financial_Intelligence.pbix` and contains Credit Risk, Fraud Detection, and Collections & Recovery pages.
 
+#### Dashboard Screenshots
+
+The following screenshots show the three pages of the NovaBank Power BI report.
+
+##### Credit Risk
+
+![NovaBank Credit Risk Dashboard](assets/novabank-credit-risk-dashboard.png)
+
+##### Fraud Detection
+
+![NovaBank Fraud Detection Dashboard](assets/novabank-fraud-detection-dashboard.png)
+
+##### Collections & Recovery
+
+![NovaBank Collections & Recovery Dashboard](assets/novabank-collections-recovery-dashboard.png)
+
 ## Technology Stack
 - Python, pandas, NumPy, SciPy
 - scikit-learn, XGBoost, SHAP
@@ -124,7 +140,7 @@ Open the local URL printed in the terminal. The AI explanation feature requires 
 - PaySim is synthetic transaction data; fraud metrics should not be interpreted as real-bank performance.
 - Reported metrics apply to their documented evaluation splits and thresholds.
 - Model associations are not causal evidence, and AI-generated explanations can be inaccurate.
-- Large raw datasets, row-level prediction exports, and the local Power BI file are intentionally excluded.
+- Large raw datasets and row-level prediction exports are intentionally excluded.
 - Reproducing all analyses or retraining the models requires the relevant source data.
 
 This project is intended for educational and portfolio demonstration purposes. It is not a validated production banking or automated financial decision system.
